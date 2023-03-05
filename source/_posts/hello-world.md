@@ -1,7 +1,15 @@
 ---
 title: Why I start this blog 
+date: 2023-01-07 10:37:28
+categories:
+- Thoughts
+tags:
+- AI
+- Machine Learning
+- physics
+- material
 ---
-## Preface
+## The AI era
 We are now in the first year of the AI era. 
 
 ChatGPT has become an indispensable tool for work and research, and it's the first AI application that has penetrated into our daily lives beyond just being a fancy game player or protein folding tool.

@@ -3,17 +3,17 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Kehang Blog 
-subtitle: ''
-description: ''
+title: Kehang's Blog 
+subtitle: 
+description: 
 keywords:
 author: Kehang Zhu 
 language: en
-timezone: ''
+timezone: 
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
-url: http://blog.kehang.site
+url: https://kevinn.github.io/
 permalink: :year/:month/:day/:title/
 permalink_defaults:
 pretty_urls:
@@ -99,18 +99,28 @@ ignore:
 ## Themes: https://hexo.io/themes/
 theme: fluid
 
+archive_generator:
+  per_page: 20
+  yearly: true
+  monthly: true
+
+tag_generator:
+  per_page: 10
+
+category_generator:
+  per_page: 10
+
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy: 
-
   type: git
-  repo: https://github.com/KeHang-Zhu/Kehang.github.io.git
-  branch: [gh-pages]
-  token: ''
-  message:
-  name: 
-  email:
-  extend_dirs: [extend directory]
-  ignore_hidden: false # default is true
-  ignore_pattern: regexp  # whatever file that matches the regexp will be ignored when deploying
+  repo: git@github.com:KeHang-Zhu/Kevinn.github.io.git
+  branch: gh-pages
+  # token: 
+  # message:
+  # name: 
+  # email:
+  # extend_dirs: 
+  # ignore_hidden: false # default is true
+  # ignore_pattern: regexp  # whatever file that matches the regexp will be ignored when deploying
 
